@@ -1,0 +1,17 @@
+{
+    "signaling_server_url": "ws://localhost:9000",
+    "webrtc_server_url": "http://localhost:8000",
+    "detect_server_url": "http://localhost:7000",
+    "cameras": [
+      {
+        "id": "camera_1",
+        "name": "Camera 1",
+        "rtsp_url": "rtsp://admin:admin@192.168.1.196:1935"
+      },
+      {
+        "id": "camera_2",
+        "name": "Camera 2",
+        "rtsp_url": "rtsp://admin:admin@192.168.1.110:1935"
+      }
+    ]
+  }

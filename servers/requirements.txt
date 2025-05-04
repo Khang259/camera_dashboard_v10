@@ -1,0 +1,7 @@
+websockets==10.4
+aiortc
+opencv-python
+aiohttp
+websockets
+fastapi
+uvicorn
