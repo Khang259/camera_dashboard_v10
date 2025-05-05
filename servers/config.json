@@ -6,12 +6,12 @@
       {
         "id": "camera_1",
         "name": "Camera 1",
-        "rtsp_url": "rtsp://admin:admin@192.168.1.196:1935"
+        "rtsp_url": "rtsp://admin:Soncave1!@192.168.1.27:554/streaming/channels/101/"
       },
       {
         "id": "camera_2",
         "name": "Camera 2",
-        "rtsp_url": "rtsp://admin:admin@192.168.1.110:1935"
+        "rtsp_url": "rtsp://admin:admin@192.168.1.196:1935"
       }
     ]
   }
