@@ -54,7 +54,7 @@ export function CameraGrid() {
         callbacks.current.delete(cameraId);
       };
     },
-    []
+    [] 
   );
 
   useEffect(() => {
