@@ -1,0 +1,12 @@
+
+# YOLOv8 dataset config
+path: datasets/items
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+names:
+  0: box
+  1: container
+  2: package

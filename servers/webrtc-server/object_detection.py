@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
-import mediapipe as mp
-import requests
 import av
 import time
+import os
+import sys
 from aiortc import VideoStreamTrack
 from config import (
     logger,
@@ -17,90 +17,55 @@ from config import (
     PTS_INCREMENT,
 )
 
-class HandDetector:
-    """Detect hands in video frames using MediaPipe."""
+# Import YOLOv8Detector từ module detector.py local
+try:
+    from detector import YOLOv8Detector
+    HAS_YOLO = True
+    logger.info("Đã load YOLOv8Detector từ module local")
+except ImportError as e:
+    HAS_YOLO = False
+    logger.warning(f"Không thể import YOLOv8Detector: {e}. Không sử dụng chức năng nhận diện đối tượng.")
+
+
+class ObjectDetector:
+    """Detect objects using YOLOv8."""
     
     def __init__(self):
-        self.mp_hands = mp.solutions.hands
-        self.hands = self.mp_hands.Hands(
-            static_image_mode=False,
-            max_num_hands=2,
-            min_detection_confidence=0.5,
-            min_tracking_confidence=0.5,
-        )
-        self.mp_draw = mp.solutions.drawing_utils
-
-    def detect_hands(self, frame):
-        height, width, _ = frame.shape
-        logger.debug(f"Processing frame with dimensions: {width}x{height}")
-        rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        # Cố gắng tải YOLOv8Detector nếu có
+        if HAS_YOLO:
+            try:
+                self.detector = YOLOv8Detector()
+                logger.info("Đã khởi tạo YOLOv8Detector thành công")
+            except Exception as e:
+                logger.error(f"Lỗi khi tải YOLOv8Detector: {e}")
+                HAS_YOLO = False
+    
+    def detect_objects(self, frame):
+        """Detect objects in the frame."""
+        if not HAS_YOLO:
+            return frame, []
+        
         try:
-            results = self.hands.process(rgb_frame)
+            frame_with_boxes, detections = self.detector.detect(frame)
+            logger.debug(f"Detected {len(detections)} objects")
+            return frame_with_boxes, detections
         except Exception as e:
-            logger.error(f"Error processing frame with MediaPipe: {e}")
-            return frame, [], []
+            logger.error(f"Error in object detection: {e}")
+            return frame, []
 
-        bounding_boxes = []
-        hand_details = []
-
-        if results.multi_hand_landmarks:
-            logger.info(f"Detected {len(results.multi_hand_landmarks)} hand(s) in frame")
-            for hand_landmarks in results.multi_hand_landmarks:
-                try:
-                    x_min = min(landmark.x for landmark in hand_landmarks.landmark)
-                    y_min = min(landmark.y for landmark in hand_landmarks.landmark)
-                    x_max = max(landmark.x for landmark in hand_landmarks.landmark)
-                    y_max = max(landmark.y for landmark in hand_landmarks.landmark)
-
-                    x_min_px = int(x_min * width)
-                    y_min_px = int(y_min * height)
-                    x_max_px = int(x_max * width)
-                    y_max_px = int(y_max * height)
-
-                    cv2.rectangle(frame, (x_min_px, y_min_px), (x_max_px, y_max_px), (0, 255, 0), 2)
-
-                    logger.debug(f"Detected hand at position ({x_min_px}, {y_min_px}, {x_max_px}, {y_max_px})")
-
-                    bounding_boxes.append({
-                        "x": x_min * 100,
-                        "y": y_min * 100,
-                        "width": (x_max - x_min) * 100,
-                        "height": (y_max - y_min) * 100,
-                        "label": "Hand",
-                        "confidence": 0.95,
-                    })
-
-                    hand_details.append({
-                        "x_min_px": x_min_px,
-                        "y_min_px": y_min_px,
-                        "x_max_px": x_max_px,
-                        "y_max_px": y_max_px,
-                    })
-
-                    self.mp_draw.draw_landmarks(frame, hand_landmarks, self.mp_hands.HAND_CONNECTIONS)
-                except Exception as e:
-                    logger.error(f"Error processing hand landmarks: {e}")
-                    continue
-
-        else:
-            logger.debug("No hands detected in frame")
-
-        return frame, bounding_boxes, hand_details
 
 class RTSPVideoStreamTrack(VideoStreamTrack):
-    """Stream video from an RTSP source with hand detection."""
+    """Stream video from an RTSP source with object detection."""
     
     kind = "video"
-    TASK_ORDER_ENDPOINT = "http://192.168.1.168:7000/ics/taskOrder/addTask"
 
     def __init__(self, rtsp_url, camera_id):
         super().__init__()
         self.camera_id = camera_id
         self.cap = self._initialize_capture(rtsp_url)
-        self.detector = HandDetector()
+        self.object_detector = ObjectDetector() if HAS_YOLO else None
         self.frame_count = 0
         self.pts = 0
-        self.order_count = 0  # Khởi tạo order_count
 
     def _initialize_capture(self, rtsp_url):
         cap = cv2.VideoCapture(rtsp_url + "?tcp", cv2.CAP_FFMPEG)
@@ -120,28 +85,6 @@ class RTSPVideoStreamTrack(VideoStreamTrack):
         if not ret:
             raise Exception(f"Failed to reconnect RTSP stream for camera {self.camera_id}")
 
-    async def _send_task_order(self):
-        self.order_count += 1
-        data = {
-            "modelProcessCode": "office_test",
-            "fromSystem": "MS_2",
-            "orderId": f"142857_{self.order_count}",
-            "taskOrderDetail": [
-                {
-                    "taskPath": "10000015"
-                }
-            ]
-        }
-        try:
-            logger.info(f"Camera {self.camera_id}: Preparing to send task order: {data}")
-            response = requests.post(self.TASK_ORDER_ENDPOINT, json=data, timeout=5)
-            if response.status_code == 200:
-                logger.info(f"Camera {self.camera_id}: Task order sent successfully: {data}")
-            else:
-                logger.error(f"Camera {self.camera_id}: Error sending task order: {response.status_code} - {response.text}")
-        except Exception as e:
-            logger.error(f"Camera {self.camera_id}: Error sending task order request: {e}")
-
     async def recv(self):
         ret, frame = self.cap.read()
         if not ret:
@@ -153,20 +96,31 @@ class RTSPVideoStreamTrack(VideoStreamTrack):
 
         self.frame_count += 1
         bounding_boxes = []
-        hand_details = []
-        if self.frame_count % DETECTION_INTERVAL == 0:
+        
+        # Phát hiện đối tượng mỗi DETECTION_INTERVAL frame
+        if self.frame_count % DETECTION_INTERVAL == 0 and self.object_detector and HAS_YOLO:
             try:
-                frame, bounding_boxes, hand_details = self.detector.detect_hands(frame)
-                logger.debug(f"Camera {self.camera_id}: Detected {len(bounding_boxes)} bounding boxes and {len(hand_details)} hand details")
+                frame, object_detections = self.object_detector.detect_objects(frame)
+                # Chuyển đổi định dạng phát hiện YOLOv8 sang định dạng bounding_boxes
+                for det in object_detections:
+                    x1, y1, x2, y2 = det["box"]
+                    width = x2 - x1
+                    height = y2 - y1
+                    bounding_boxes.append({
+                        "x": x1 / frame.shape[1] * 100,
+                        "y": y1 / frame.shape[0] * 100,
+                        "width": width / frame.shape[1] * 100,
+                        "height": height / frame.shape[0] * 100,
+                        "label": det["class_name"],
+                        "confidence": det["confidence"],
+                    })
+                logger.debug(f"Camera {self.camera_id}: Detected {len(object_detections)} objects with YOLOv8")
             except Exception as e:
-                logger.error(f"Camera {self.camera_id}: Error in detect_hands: {e}")
-                bounding_boxes = []
-                hand_details = []
+                logger.error(f"Camera {self.camera_id}: Error in detect_objects: {e}")
 
-        # Gửi task order ngay khi phát hiện bàn tay
+        # Ghi log khi phát hiện đối tượng
         if len(bounding_boxes) > 0:
-            logger.info(f"Camera {self.camera_id}: Hand detected, sending task order")
-            await self._send_task_order()
+            logger.info(f"Camera {self.camera_id}: Detected {len(bounding_boxes)} objects in frame")
 
         # Convert to YUV420P and create AV frame
         try:

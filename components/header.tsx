@@ -45,7 +45,7 @@ export function Header() {
     <header className="w-full border-b bg-background">
       <div className="container mx-auto">
         <div className="py-4">
-          <h1 className="text-2xl font-bold">Camera Dashboard</h1>
+          <h1 className="text-2xl font-bold">ISS - Intelligent Solution System</h1>
         </div>
         <nav className="flex space-x-1 pb-2">
           {navItems.map((item) => (

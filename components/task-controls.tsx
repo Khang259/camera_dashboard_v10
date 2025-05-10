@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Switch } from "@/components/ui/switch"
 import { Label } from "@/components/ui/label"
 import {
   Dialog,
@@ -19,6 +18,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { useTaskStore } from "@/lib/stores/task-store"
 import { useCameraStore } from "@/lib/stores/camera-store"
 import { PlayCircle } from "lucide-react"
+import { HoloSwitch } from "@/components/ui/holo-switch"
 
 export function TaskControls() {
   const { isAutoMode, setAutoMode, addTask, addTaskRecord } = useTaskStore()
@@ -61,7 +61,7 @@ export function TaskControls() {
   return (
     <div className="flex items-center gap-4">
       <div className="flex items-center space-x-2">
-        <Switch id="auto-mode" checked={isAutoMode} onCheckedChange={handleAutoModeToggle} />
+        <HoloSwitch id="auto-mode" checked={isAutoMode} onCheckedChange={handleAutoModeToggle} />
         <Label htmlFor="auto-mode">{isAutoMode ? "Automatic Mode" : "Manual Mode"}</Label>
       </div>
 
