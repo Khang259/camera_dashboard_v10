@@ -167,7 +167,7 @@ export function CameraGrid() {
 
   return (
     <div className="space-y-4">
-      <div className="border-2 border-red-500 rounded-lg p-4">
+      <div className="border-2 border-green-200 rounded-lg p-4">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {displayedCameras.map((camera) => (
             <CameraCard

@@ -12,50 +12,12 @@ from config import (
     FRAME_HEIGHT,
     BUFFER_SIZE,
     VIDEO_FOURCC,
-    DETECTION_INTERVAL,
     VIDEO_TIME_BASE,
     PTS_INCREMENT,
 )
 
-# Import YOLOv8Detector từ module detector.py local
-try:
-    from detector import YOLOv8Detector
-    HAS_YOLO = True
-    logger.info("Đã load YOLOv8Detector từ module local")
-except ImportError as e:
-    HAS_YOLO = False
-    logger.warning(f"Không thể import YOLOv8Detector: {e}. Không sử dụng chức năng nhận diện đối tượng.")
-
-
-class ObjectDetector:
-    """Detect objects using YOLOv8."""
-    
-    def __init__(self):
-        # Cố gắng tải YOLOv8Detector nếu có
-        if HAS_YOLO:
-            try:
-                self.detector = YOLOv8Detector()
-                logger.info("Đã khởi tạo YOLOv8Detector thành công")
-            except Exception as e:
-                logger.error(f"Lỗi khi tải YOLOv8Detector: {e}")
-                HAS_YOLO = False
-    
-    def detect_objects(self, frame):
-        """Detect objects in the frame."""
-        if not HAS_YOLO:
-            return frame, []
-        
-        try:
-            frame_with_boxes, detections = self.detector.detect(frame)
-            logger.debug(f"Detected {len(detections)} objects")
-            return frame_with_boxes, detections
-        except Exception as e:
-            logger.error(f"Error in object detection: {e}")
-            return frame, []
-
-
 class RTSPVideoStreamTrack(VideoStreamTrack):
-    """Stream video from an RTSP source with object detection."""
+    """Stream video from an RTSP source."""
     
     kind = "video"
 
@@ -63,7 +25,6 @@ class RTSPVideoStreamTrack(VideoStreamTrack):
         super().__init__()
         self.camera_id = camera_id
         self.cap = self._initialize_capture(rtsp_url)
-        self.object_detector = ObjectDetector() if HAS_YOLO else None
         self.frame_count = 0
         self.pts = 0
 
@@ -95,32 +56,6 @@ class RTSPVideoStreamTrack(VideoStreamTrack):
                 raise Exception(f"Failed to reconnect RTSP stream for camera {self.camera_id}")
 
         self.frame_count += 1
-        bounding_boxes = []
-        
-        # Phát hiện đối tượng mỗi DETECTION_INTERVAL frame
-        if self.frame_count % DETECTION_INTERVAL == 0 and self.object_detector and HAS_YOLO:
-            try:
-                frame, object_detections = self.object_detector.detect_objects(frame)
-                # Chuyển đổi định dạng phát hiện YOLOv8 sang định dạng bounding_boxes
-                for det in object_detections:
-                    x1, y1, x2, y2 = det["box"]
-                    width = x2 - x1
-                    height = y2 - y1
-                    bounding_boxes.append({
-                        "x": x1 / frame.shape[1] * 100,
-                        "y": y1 / frame.shape[0] * 100,
-                        "width": width / frame.shape[1] * 100,
-                        "height": height / frame.shape[0] * 100,
-                        "label": det["class_name"],
-                        "confidence": det["confidence"],
-                    })
-                logger.debug(f"Camera {self.camera_id}: Detected {len(object_detections)} objects with YOLOv8")
-            except Exception as e:
-                logger.error(f"Camera {self.camera_id}: Error in detect_objects: {e}")
-
-        # Ghi log khi phát hiện đối tượng
-        if len(bounding_boxes) > 0:
-            logger.info(f"Camera {self.camera_id}: Detected {len(bounding_boxes)} objects in frame")
 
         # Convert to YUV420P and create AV frame
         try:
