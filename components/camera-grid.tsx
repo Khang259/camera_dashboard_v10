@@ -166,9 +166,24 @@ export function CameraGrid() {
   if (!stableCameras.length) return <div>No cameras available</div>;
 
   return (
-    <div className="space-y-4">
-      <div className="border-2 border-green-200 rounded-lg p-4">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div className="space-y-4 pt-[150px] ">
+        <img
+          src="/img_khung.png"
+          alt="Background Image"
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-51%, -40%)',
+            width: '88vw',
+            height: '50vh',
+            // objectFit: 'cover',
+            zIndex: 1,
+            opacity: 0.75
+          }}
+        />
+      <div className=" rounded-lg p-4">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
           {displayedCameras.map((camera) => (
             <CameraCard
               key={camera.id}
@@ -181,7 +196,7 @@ export function CameraGrid() {
         <ReactPaginate
           pageCount={Math.ceil(stableCameras.length / camerasPerPage)}
           onPageChange={handlePageChange}
-          containerClassName="pagination flex justify-center mt-4"
+          containerClassName="pagination flex justify-center mt-4 pt-15"
           pageClassName="mx-1"
           activeClassName="font-bold text-blue-500"
           pageLinkClassName="px-3 py-1 border rounded"

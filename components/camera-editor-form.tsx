@@ -23,7 +23,7 @@ const formSchema = z.object({
     .regex(/^(\d{1,3}\.){3}\d{1,3}(:\d+)?$/, {
       message: "Please enter a valid IP address format (e.g., 192.168.1.100 or 192.168.1.100:8080).",
     }),
-  streamUrl: z.string().url({
+  rtsp_url: z.string().url({
     message: "Please enter a valid URL.",
   }),
 })
@@ -37,28 +37,57 @@ export function CameraEditorForm() {
     defaultValues: {
       name: "",
       ipAddress: "",
-      streamUrl: "",
+      rtsp_url: "",
     },
   })
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    if (editingCamera) {
-      updateCamera({
-        ...editingCamera,
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      const cameraData = {
+        id: editingCamera ? editingCamera.id : undefined,
         name: values.name,
         ipAddress: values.ipAddress,
-        streamUrl: values.streamUrl,
-      })
-      setEditingCamera(null)
-    } else {
-      addCamera({
-        id: Date.now().toString(),
-        name: values.name,
-        ipAddress: values.ipAddress,
-        streamUrl: values.streamUrl,
-      })
+        rtsp_url: values.rtsp_url, // Ánh xạ streamUrl thành rtsp_url
+      };
+  
+      // Gửi yêu cầu đến FastAPI
+      const response = await fetch("http://localhost:7000/api/cameras", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(cameraData),
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.detail || "Failed to save camera");
+      }
+  
+      const result = await response.json();
+      console.log(result.message);
+  
+      // Cập nhật state trong store
+      if (editingCamera) {
+        updateCamera({
+          ...editingCamera,
+          name: values.name,
+          ipAddress: values.ipAddress,
+          rtsp_url: values.rtsp_url,
+        });
+      } else {
+        addCamera({
+          id: result.camera.id,
+          name: values.name,
+          ipAddress: values.ipAddress,
+          rtsp_url: values.rtsp_url,
+        });
+      }
+  
+      form.reset();
+      setEditingCamera(null);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      form.setError("root", { message: error.message || "Failed to save camera. Please try again." });
     }
-    form.reset()
   }
 
   function handleEdit(camera: Camera) {
@@ -66,7 +95,7 @@ export function CameraEditorForm() {
     form.reset({
       name: camera.name,
       ipAddress: camera.ipAddress || "",
-      streamUrl: camera.streamUrl,
+      rtsp_url: camera.rtsp_url,
     })
   }
 
@@ -114,12 +143,12 @@ export function CameraEditorForm() {
               />
               <FormField
                 control={form.control}
-                name="streamUrl"
+                name="rtsp_url"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Stream URL</FormLabel>
+                    <FormLabel>RTSP URL</FormLabel>
                     <FormControl>
-                      <Input placeholder="rtsp://example.com/stream" {...field} />
+                      <Input placeholder="rtsp://example.com/" {...field} />
                     </FormControl>
                     <FormDescription>The RTSP, HLS, or WebRTC URL for your camera stream</FormDescription>
                     <FormMessage />
@@ -153,7 +182,7 @@ export function CameraEditorForm() {
                   <div>
                     <div className="font-medium">{camera.name}</div>
                     <div className="text-sm text-muted-foreground">{camera.ipAddress}</div>
-                    <div className="text-sm text-muted-foreground">{camera.streamUrl}</div>
+                    <div className="text-sm text-muted-foreground">{camera.rtsp_url}</div>
                   </div>
                   <div className="flex gap-2">
                     <Button variant="outline" size="sm" onClick={() => handleEdit(camera)}>

@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useTaskStore } from "@/lib/stores/task-store";
 import styled from 'styled-components';
 
@@ -11,6 +11,7 @@ interface AppBackgroundProps {
 export function AppBackground({ children }: AppBackgroundProps) {
   const { isAutoMode } = useTaskStore();
   const [hasActivated, setHasActivated] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
   
   useEffect(() => {
     // Tạo container cho các hiệu ứng holographic
@@ -264,26 +265,52 @@ export function AppBackground({ children }: AppBackgroundProps) {
 
           .nebula {
             position: fixed;
-            width: 120%;
-            height: 120%;
-            top: -10%;
-            left: -10%;
-            background: radial-gradient(
+            width: 140%;
+            height: 140%;
+            top: -20%;
+            left: -20%;
+            background: 
+              radial-gradient(
                 ellipse at 30% 30%,
-                rgba(8, 208, 140, 0.3) 0%,
+                rgba(8, 208, 140, 0.8) 0%,
                 rgba(8, 208, 140, 0) 70%
               ),
               radial-gradient(
                 ellipse at 70% 60%,
-                rgba(0, 113, 167, 0.3) 0%,
+                rgba(0, 113, 167, 0.7) 0%,
                 rgba(0, 113, 167, 0) 70%
               ),
               radial-gradient(
                 ellipse at 50% 50%,
-                rgba(167, 0, 157, 0.2) 0%,
+                rgba(167, 0, 157, 0.7) 0%,
                 rgba(167, 0, 157, 0) 70%
+              ),
+              radial-gradient(
+                ellipse at 80% 20%,
+                rgba(255, 255, 255, 0.4) 0%,
+                rgba(255, 255, 255, 0) 70%
+              ),
+              radial-gradient(
+                ellipse at 20% 80%,
+                rgba(8, 208, 140, 0.5) 0%,
+                rgba(8, 208, 140, 0) 70%
+              ),
+              radial-gradient(
+                ellipse at 60% 10%,
+                rgba(0, 255, 255, 0.3) 0%,
+                rgba(0, 255, 255, 0) 70%
+              ),
+              radial-gradient(
+                ellipse at 10% 60%,
+                rgba(255, 0, 255, 0.3) 0%,
+                rgba(255, 0, 255, 0) 70%
+              ),
+              radial-gradient(
+                ellipse at 90% 80%,
+                rgba(255, 255, 0, 0.2) 0%,
+                rgba(255, 255, 0, 0) 70%
               );
-            filter: blur(30px);
+            filter: blur(40px);
             opacity: 0;
             transition: opacity 1s ease;
             animation: nebula-shift 30s infinite alternate ease-in-out;
@@ -292,7 +319,7 @@ export function AppBackground({ children }: AppBackgroundProps) {
           }
           
           body.auto-mode .nebula {
-            opacity: 0.5;
+            opacity: 1;
           }
           
           @keyframes nebula-shift {
@@ -556,7 +583,7 @@ export function AppBackground({ children }: AppBackgroundProps) {
       // Tạo hiệu ứng grid plane
       const holoContainer = document.getElementById('holo-effects-container');
       if (holoContainer) {
-        // Tạo grid plane nếu chưa có
+        // Tạo grid plane 
         if (!document.getElementById('grid-plane')) {
           const gridPlane = document.createElement('div');
           gridPlane.id = 'grid-plane';
@@ -564,14 +591,14 @@ export function AppBackground({ children }: AppBackgroundProps) {
           holoContainer.appendChild(gridPlane);
         }
         
-        // Tạo stars container nếu chưa có
+        // Tạo stars container 
         if (!document.getElementById('stars-container')) {
           const starsContainer = document.createElement('div');
           starsContainer.id = 'stars-container';
           starsContainer.className = 'stars-container';
           
           // Tạo 3 star layers
-          for (let i = 0; i < 3; i++) {
+          for (let i = 0; i < 20; i++) {
             const starLayer = document.createElement('div');
             starLayer.className = 'star-layer';
             starsContainer.appendChild(starLayer);
@@ -619,7 +646,7 @@ export function AppBackground({ children }: AppBackgroundProps) {
           particles.className = 'holo-particles';
           
           // Tạo 20 particles
-          for (let i = 0; i < 20; i++) {
+          for (let i = 20; i < 0; i++) {
             const particle = document.createElement('div');
             particle.className = 'holo-particle';
             
@@ -707,7 +734,78 @@ export function AppBackground({ children }: AppBackgroundProps) {
     };
   }, [isAutoMode, hasActivated]);
 
+  // useEffect(() => {
+  //   if (videoRef.current) {
+  //     videoRef.current.playbackRate = 0.5; // Giảm tốc độ phát video xuống 0.5 lần
+  //   }
+  // }, []);
+
   return (
-    <>{children}</>
+    <>
+      {/* <video
+        ref={videoRef}
+        src="/videos/video_gen.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{
+          position: 'fixed',
+          // backgroundPositionY: '50px',
+          left: 0,
+          top: 0,
+          width: '100vh',
+          height: '100vw',
+          objectFit: 'cover',
+          zIndex: -4,
+          transform: 'rotate(90deg) translateY(-100vw)',
+          transformOrigin: 'left top',
+        }}
+      /> */}
+      <img
+        src="/img_wave.jpg"
+        alt="Background Image"
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          objectFit: 'cover',
+          zIndex: -3,
+        }}
+      />
+      <img
+        src="/img_half_world.png"
+        alt="Background Image"
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: '28%',
+          transform: 'translateX(-10%) translateY(35%)',
+          width: '50vw',
+          height: '28vh',
+          objectFit: 'cover',
+          zIndex: -2,
+          opacity: 1
+        }}
+      />
+      <img
+        src="/animation_consistent.gif"
+        alt="Animation GIF"
+        style={{
+          position: 'fixed',
+          top: '20px',
+          left: '20px',
+          width: '150px',
+          transform: 'translateX(5%) translateY(90%)',
+          height: 'auto',
+          zIndex: -1,
+          scale: 2,
+          animation: 'infinite-loop 120s linear infinite'
+        }}
+      />
+      {children}
+    </>
   );
 } 

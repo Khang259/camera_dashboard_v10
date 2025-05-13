@@ -1,12 +1,25 @@
 {
-    "signaling_server_url": "ws://localhost:9000",
-    "webrtc_server_url": "http://localhost:8000",
-    "detect_server_url": "http://localhost:7000",
-    "cameras": [
-      {
-        "id": "camera_1",
-        "name": "Camera 1",
-        "rtsp_url": "rtsp://admin:Soncave1!@192.168.1.27:554/streaming/channels/101/"
-      }
-    ]
-  }
+  "signaling_server_url": "ws://localhost:9000",
+  "webrtc_server_url": "http://localhost:8000",
+  "detect_server_url": "http://localhost:7000",
+  "cameras": [
+    {
+      "id": "1",
+      "name": "Camera 1",
+      "ipAddress": "192.168.1.21",
+      "rtsp_url": "rtsp://admin:Soncave1!@192.168.1.27:554/streaming/channels/101/"
+    },
+    {
+      "name": "camera phone",
+      "ipAddress": "192.168.1.211",
+      "rtsp_url": "rtsp://admin:admin@192.168.1.211:1935",
+      "id": "2"
+    },
+    {
+      "name": "camera2",
+      "ipAddress": "192.168.1.1",
+      "rtsp_url": "rtsp://example.com",
+      "id": "3"
+    }
+  ]
+}

@@ -10,6 +10,19 @@ from aiortc import (
 )
 from config import logger, SIGNALING_SERVER_URL, CAMERAS, RETRY_MAX_ATTEMPTS, RETRY_DELAY_SECONDS
 from object_detection import RTSPVideoStreamTrack
+import os
+from pymongo import MongoClient
+
+# Kết nối MongoDB
+MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+mongo_client = MongoClient(MONGODB_URI)
+db = mongo_client["HONDA_HN"]
+collection = db["config"]
+
+def sync_cameras_from_mongo():
+    global CAMERAS
+    CAMERAS[:] = list(collection.find({}, {"_id": 0}))
+    logger.info("Synced CAMERAS from MongoDB")
 
 class CandidateParser:
     """Parse ICE candidate strings into structured data."""
@@ -66,6 +79,8 @@ class WebRTCServer:
             logger.error("Missing cameraId or clientId in offer")
             return
 
+        # Đồng bộ CAMERAS trước khi xử lý
+        sync_cameras_from_mongo()
         camera = next((cam for cam in CAMERAS if cam["id"] == camera_id), None)
         if not camera:
             logger.error(f"Camera {camera_id} not found")
@@ -147,6 +162,24 @@ class WebRTCServer:
         except Exception as e:
             logger.error(f"Failed to add ICE candidate for camera {camera_id}: {e}")
 
+    async def _handle_camera_update(self, data):
+        camera = data.get("camera")
+        camera_id = camera.get("id")
+        # Đồng bộ CAMERAS trước khi xử lý
+        sync_cameras_from_mongo()
+        existing_camera = next((cam for cam in CAMERAS if cam["id"] == camera_id), None)
+        if existing_camera:
+            existing_camera.update(camera)
+            logger.info(f"Updated camera {camera_id} in CAMERAS")
+            # Đóng peer connection cũ nếu tồn tại
+            if camera_id in self.peer_connections:
+                await self.peer_connections[camera_id].close()
+                del self.peer_connections[camera_id]
+                logger.info(f"Closed peer connection for camera {camera_id}")
+        else:
+            CAMERAS.append(camera)
+            logger.info(f"Added camera {camera_id} to CAMERAS")
+
     async def _handle_signaling(self, websocket):
         async for message in websocket:
             try:
@@ -157,6 +190,8 @@ class WebRTCServer:
                     await self._handle_offer(websocket, data)
                 elif data.get("type") == "candidate":
                     await self._handle_candidate(data)
+                elif data.get("type") == "camera_update":
+                    await self._handle_camera_update(data)
             except Exception as e:
                 logger.error(f"Error processing message: {e}")
 
@@ -188,11 +223,12 @@ class WebRTCServer:
                     raise Exception("Could not connect to Signaling Server")
 
 async def main():
+    # Đồng bộ CAMERAS khi khởi động
+    sync_cameras_from_mongo()
     server = WebRTCServer()
     await server.run()
 
 if __name__ == "__main__":
     import os
-    # Suppress MediaPipe logs
     os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
     asyncio.run(main())
