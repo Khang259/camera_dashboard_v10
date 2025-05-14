@@ -59,6 +59,7 @@
     "recharts": "2.15.0",
     "sonner": "^1.7.1",
     "styled-components": "^6.1.18",
+    "sweetalert2": "^11.21.0",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "use-sync-external-store": "latest",

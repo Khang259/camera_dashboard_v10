@@ -4702,3 +4702,292 @@
 }
 2025-05-13 17:02:54,768 - INFO - Response for GET http://localhost:7000/api/config: status=200
 2025-05-13 17:02:54,769 - INFO - Response for GET http://localhost:7000/api/cameras: status=200
+2025-05-13 18:38:44,204 - INFO - Synced cameras from MongoDB
+2025-05-13 18:38:44,446 - INFO - Application starting up
+2025-05-13 18:38:49,290 - INFO - Request: {
+  "method": "GET",
+  "url": "http://localhost:7000/api/config",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://192.168.1.21:3000",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-13T18:38:49.290347"
+}
+2025-05-13 18:38:49,294 - INFO - Request: {
+  "method": "GET",
+  "url": "http://localhost:7000/api/cameras",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://192.168.1.21:3000",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-13T18:38:49.294345"
+}
+2025-05-13 18:38:49,666 - INFO - Response for GET http://localhost:7000/api/config: status=200
+2025-05-13 18:38:49,667 - INFO - Response for GET http://localhost:7000/api/cameras: status=200
+2025-05-14 08:56:11,525 - INFO - Request: {
+  "method": "OPTIONS",
+  "url": "http://localhost:7000/api/cameras",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "accept": "*/*",
+    "access-control-request-method": "POST",
+    "access-control-request-headers": "content-type",
+    "origin": "http://192.168.1.21:3000",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T08:56:11.525485"
+}
+2025-05-14 08:56:11,529 - INFO - Response for OPTIONS http://localhost:7000/api/cameras: status=200
+2025-05-14 08:56:11,532 - INFO - Request: {
+  "method": "POST",
+  "url": "http://localhost:7000/api/cameras",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "content-length": "72",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://192.168.1.21:3000",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T08:56:11.532473",
+  "body": {
+    "name": "khang",
+    "ipAddress": "127.0.0.1",
+    "rtsp_url": "rtsp://example.com"
+  }
+}
+2025-05-14 08:56:11,540 - INFO - Added camera 4
+2025-05-14 08:56:11,631 - ERROR - Failed to notify signaling server: Invalid port: '9000:9001'
+2025-05-14 08:56:11,633 - INFO - Response for POST http://localhost:7000/api/cameras: status=200
+2025-05-14 10:33:15,722 - INFO - Request: {
+  "method": "OPTIONS",
+  "url": "http://localhost:7000/api/cameras",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "accept": "*/*",
+    "access-control-request-method": "POST",
+    "access-control-request-headers": "content-type",
+    "origin": "http://192.168.1.21:3000",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T10:33:15.721838"
+}
+2025-05-14 10:33:15,725 - INFO - Response for OPTIONS http://localhost:7000/api/cameras: status=200
+2025-05-14 10:33:15,729 - INFO - Request: {
+  "method": "POST",
+  "url": "http://localhost:7000/api/cameras",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "content-length": "73",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://192.168.1.21:3000",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T10:33:15.729324",
+  "body": {
+    "name": "khang1",
+    "ipAddress": "127.0.0.1",
+    "rtsp_url": "rtsp://example.com"
+  }
+}
+2025-05-14 10:33:15,738 - INFO - Added camera 5
+2025-05-14 10:33:15,756 - ERROR - Failed to notify signaling server: Invalid port: '9000:9001'
+2025-05-14 10:33:15,757 - INFO - Response for POST http://localhost:7000/api/cameras: status=200
+2025-05-14 10:33:31,165 - INFO - Request: {
+  "method": "OPTIONS",
+  "url": "http://localhost:7000/api/cameras/5",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "accept": "*/*",
+    "access-control-request-method": "DELETE",
+    "access-control-request-headers": "content-type",
+    "origin": "http://192.168.1.21:3000",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T10:33:31.164928"
+}
+2025-05-14 10:33:31,167 - INFO - Response for OPTIONS http://localhost:7000/api/cameras/5: status=200
+2025-05-14 10:33:31,170 - INFO - Request: {
+  "method": "DELETE",
+  "url": "http://localhost:7000/api/cameras/5",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://192.168.1.21:3000",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T10:33:31.170917"
+}
+2025-05-14 10:33:31,174 - INFO - Response for DELETE http://localhost:7000/api/cameras/5: status=404
+2025-05-14 10:34:26,714 - INFO - Request: {
+  "method": "DELETE",
+  "url": "http://localhost:7000/api/cameras/5",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://192.168.1.21:3000",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T10:34:26.713910"
+}
+2025-05-14 10:34:26,717 - INFO - Response for DELETE http://localhost:7000/api/cameras/5: status=404
+2025-05-14 10:36:02,653 - INFO - Request: {
+  "method": "PUT",
+  "url": "http://localhost:7000/api/cameras",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "content-length": "87",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://192.168.1.21:3000",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T10:36:02.653266",
+  "body": {
+    "id": "5",
+    "name": "khang1",
+    "ipAddress": "127.0.0.1:3000",
+    "rtsp_url": "rtsp://example.com"
+  }
+}
+2025-05-14 10:36:02,657 - INFO - Response for PUT http://localhost:7000/api/cameras: status=405
+2025-05-14 10:36:05,978 - INFO - Request: {
+  "method": "PUT",
+  "url": "http://localhost:7000/api/cameras",
+  "client": "127.0.0.1",
+  "headers": {
+    "host": "localhost:7000",
+    "connection": "keep-alive",
+    "content-length": "87",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://192.168.1.21:3000",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://192.168.1.21:3000/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "vi,vi-VN;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
+  },
+  "timestamp": "2025-05-14T10:36:05.978088",
+  "body": {
+    "id": "5",
+    "name": "khang1",
+    "ipAddress": "127.0.0.1:3000",
+    "rtsp_url": "rtsp://example.com"
+  }
+}
+2025-05-14 10:36:05,982 - INFO - Response for PUT http://localhost:7000/api/cameras: status=405
+2025-05-14 10:36:22,827 - INFO - Application shutting down
