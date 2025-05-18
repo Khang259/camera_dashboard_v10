@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from pymongo import MongoClient
@@ -40,6 +40,9 @@ MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
 client = MongoClient(MONGODB_URI)
 db = client["HONDA_HN"]
 collection = db["config"]
+
+# Danh sách các client WebSocket đang kết nối
+connected_clients = set()
 
 # Đồng bộ cameras từ MongoDB
 def sync_cameras_from_mongo():
@@ -104,7 +107,34 @@ async def notify_signaling_server(camera, action="update"):
     except Exception as e:
         logger.error(f"Failed to notify signaling server: {str(e)}")
 
-# APIs
+# WebSocket endpoint để frontend kết nối
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    connected_clients.add(websocket)
+    logger.info(f"New WebSocket client connected: {websocket.client.host}")
+    try:
+        while True:
+            # Giữ kết nối mở (có thể xử lý tin nhắn từ client nếu cần)
+            await websocket.receive_text()
+    except Exception as e:
+        logger.error(f"WebSocket client disconnected: {str(e)}")
+        connected_clients.remove(websocket)
+
+# HTTP endpoint để backend gửi thông số camera
+@app.post("/send_stream_info")
+async def send_stream_info(data: dict):
+    try:
+        # Gửi dữ liệu đến tất cả client WebSocket đang kết nối
+        for client in connected_clients:
+            await client.send_json(data)
+        logger.info(f"Sent stream info to {len(connected_clients)} clients: {data}")
+        return {"status": "sent"}
+    except Exception as e:
+        logger.error(f"Error sending stream info: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error sending stream info: {str(e)}")
+
+# APIs hiện có
 @app.get("/api/cameras")
 async def get_cameras():
     return {"cameras": cameras}

@@ -5,21 +5,9 @@
   "cameras": [
     {
       "id": "1",
-      "name": "camera1",
-      "ipAddress": "192.168.1.27",
-      "rtsp_url": "rtsp://admin:Soncave1!@192.168.1.27:554/streaming/channels/101/"
-    },
-    {
-      "id": "2",
-      "name": "camera2",
-      "ipAddress": "192.168.1.28",
-      "rtsp_url": "rtsp://admin:Soncave1!@192.168.1.28:554/streaming/channels/101/"
-    },
-    {
-      "id": "3",
-      "name": "camera3",
-      "ipAddress": "192.168.1.29",
-      "rtsp_url": "rtsp://admin:Soncave1!@192.168.1.29:554/streaming/channels/101/"
+      "name": "Camera 1",
+      "ipAddress": "192.168.1.19",
+      "rtsp_url": "rtsp://admin:admin@192.168.1.19:1935"
     }
   ]
 }

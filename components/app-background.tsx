@@ -775,7 +775,7 @@ export function AppBackground({ children }: AppBackgroundProps) {
           zIndex: -3,
         }}
       />
-      <img
+      {/* <img
         src="/img_half_world.png"
         alt="Background Image"
         style={{
@@ -789,8 +789,8 @@ export function AppBackground({ children }: AppBackgroundProps) {
           zIndex: -2,
           opacity: 1
         }}
-      />
-      <img
+      /> */}
+      {/* <img
         src="/animation_consistent.gif"
         alt="Animation GIF"
         style={{
@@ -804,7 +804,7 @@ export function AppBackground({ children }: AppBackgroundProps) {
           scale: 2,
           animation: 'infinite-loop 120s linear infinite'
         }}
-      />
+      /> */}
       {children}
     </>
   );

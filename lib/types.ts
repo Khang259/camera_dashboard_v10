@@ -53,6 +53,7 @@ export interface TaskRecord {
   details: string;
   status: TaskStatus;
   error?: string;
+  mode: "auto" | "manual";
 }
 
 // Thêm interface WebRTCMessage

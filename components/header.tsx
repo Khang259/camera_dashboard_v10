@@ -11,11 +11,11 @@ const navItems = [
     href: "/dashboard",
     icon: Camera,
   },
-  {
-    name: "Performance",
-    href: "/performance",
-    icon: BarChart2,
-  },
+  // {
+  //   name: "Performance",
+  //   href: "/performance",
+  //   icon: BarChart2,
+  // },
   {
     name: "Accuracy",
     href: "/accuracy",

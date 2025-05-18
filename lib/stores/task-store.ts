@@ -64,6 +64,7 @@ const generateSampleTaskRecords = () => {
     const daysAgo = Math.floor(Math.random() * 30)
     const timestamp = getRandomPastDate(daysAgo)
     const status = statuses[Math.floor(Math.random() * statuses.length)]
+    const mode = Math.random() > 0.5 ? "auto" : "manual"
 
     records.push({
       id: `record-${i}`,
@@ -75,6 +76,7 @@ const generateSampleTaskRecords = () => {
         Math.random() > 0.5 ? "Successfully detected cargo box in position" : "Checked for unauthorized personnel",
       status,
       error: status === "failed" ? "Object not found in frame" : undefined,
+      mode,
     })
   }
 
@@ -119,12 +121,13 @@ export const useTaskStore = create<TaskState>()(
       },
 
       addTaskRecord: (recordData) => {
+        const { isAutoMode } = get();
         const record: TaskRecord = {
           ...recordData,
           id: Date.now().toString(),
           timestamp: new Date().toISOString(),
+          mode: isAutoMode ? "auto" : "manual",
         }
-
         set((state) => ({
           taskRecords: [...state.taskRecords, record],
         }))

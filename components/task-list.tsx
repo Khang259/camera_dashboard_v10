@@ -24,6 +24,7 @@ export function TaskList() {
   const [search, setSearch] = useState("")
   const [statusFilter, setStatusFilter] = useState<TaskStatus | "all">("all")
   const [cameraFilter, setCameraFilter] = useState("all")
+  const [modeFilter, setModeFilter] = useState<"all" | "auto" | "manual">("all")
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 10
 
@@ -39,11 +40,10 @@ export function TaskList() {
       const matchesSearch =
         record.taskName.toLowerCase().includes(search.toLowerCase()) ||
         record.details.toLowerCase().includes(search.toLowerCase())
-
       const matchesStatus = statusFilter === "all" || record.status === statusFilter
       const matchesCamera = cameraFilter === "all" || record.cameraId === cameraFilter
-
-      return matchesSearch && matchesStatus && matchesCamera
+      const matchesMode = modeFilter === "all" || record.mode === modeFilter
+      return matchesSearch && matchesStatus && matchesCamera && matchesMode
     })
     .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime())
 
@@ -107,6 +107,18 @@ export function TaskList() {
                 </SelectContent>
               </Select>
             </div>
+            <div className="w-full sm:w-48">
+              <Select value={modeFilter} onValueChange={(value) => setModeFilter(value as "all" | "auto" | "manual")}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Filter by mode" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">All Modes</SelectItem>
+                  <SelectItem value="manual">Manual</SelectItem>
+                  <SelectItem value="auto">Auto</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
           </div>
 
           <div className="rounded-md border">
@@ -115,6 +127,7 @@ export function TaskList() {
                 <TableRow>
                   <TableHead>Timestamp</TableHead>
                   <TableHead>Camera</TableHead>
+                  <TableHead>Mode</TableHead>
                   <TableHead>Task</TableHead>
                   <TableHead>Details</TableHead>
                   <TableHead>Status</TableHead>
@@ -123,7 +136,7 @@ export function TaskList() {
               <TableBody>
                 {paginatedRecords.length === 0 ? (
                   <TableRow>
-                    <TableCell colSpan={5} className="text-center py-4">
+                    <TableCell colSpan={6} className="text-center py-4">
                       No task records found
                     </TableCell>
                   </TableRow>
@@ -132,6 +145,7 @@ export function TaskList() {
                     <TableRow key={record.id}>
                       <TableCell className="font-medium whitespace-nowrap">{formatDate(record.timestamp)}</TableCell>
                       <TableCell>{getCameraName(record.cameraId)}</TableCell>
+                      <TableCell className="capitalize">{record.mode}</TableCell>
                       <TableCell>{record.taskName}</TableCell>
                       <TableCell>
                         <div className="max-w-md">
@@ -157,7 +171,8 @@ export function TaskList() {
                 <PaginationItem>
                   <PaginationPrevious
                     onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                    disabled={currentPage === 1}
+                    aria-disabled={currentPage === 1}
+                    className={currentPage === 1 ? 'pointer-events-none opacity-50' : ''}
                   />
                 </PaginationItem>
 
@@ -179,7 +194,8 @@ export function TaskList() {
                 <PaginationItem>
                   <PaginationNext
                     onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-                    disabled={currentPage === totalPages}
+                    aria-disabled={currentPage === totalPages}
+                    className={currentPage === totalPages ? 'pointer-events-none opacity-50' : ''}
                   />
                 </PaginationItem>
               </PaginationContent>
