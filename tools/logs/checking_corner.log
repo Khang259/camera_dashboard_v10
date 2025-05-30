@@ -1,0 +1,2221 @@
+2025-05-30 21:02:08,566 - INFO - [Camera 1] Started RTSP reading thread
+2025-05-30 21:02:08,567 - INFO - [Camera 2] Started RTSP reading thread
+2025-05-30 21:02:08,568 - INFO - [Camera 3] Started RTSP reading thread
+2025-05-30 21:02:08,569 - INFO - [Camera 1] Started frame processing thread
+2025-05-30 21:02:08,569 - INFO - [Camera 2] Started frame processing thread
+2025-05-30 21:02:08,570 - INFO - [Camera 3] Started frame processing thread
+2025-05-30 21:02:08,571 - INFO - [Camera 1] Initialized FFmpeg for RTSP: rtsp://admin:Soncave1!@192.168.1.27:554/streaming/channels/101
+2025-05-30 21:02:08,571 - INFO - [Camera 2] Initialized FFmpeg for RTSP: rtsp://admin:Soncave1!@192.168.1.28:554/streaming/channels/101
+2025-05-30 21:02:08,572 - INFO - [Camera 3] Initialized FFmpeg for RTSP: rtsp://admin:Soncave1!@192.168.1.29:554/streaming/channels/101
+2025-05-30 21:02:11,582 - WARNING - [Camera 2] Frame queue empty, waiting for new frame
+2025-05-30 21:02:11,582 - WARNING - [Camera 3] Frame queue empty, waiting for new frame
+2025-05-30 21:02:11,582 - WARNING - [Camera 1] Frame queue empty, waiting for new frame
+2025-05-30 21:02:13,471 - INFO - [Camera 1] Bounding box 1: Cargo detected
+2025-05-30 21:02:13,471 - INFO -   - TaskPath: 10000160
+2025-05-30 21:02:13,480 - INFO - [Camera 1] Bounding box 2: Cargo detected
+2025-05-30 21:02:13,480 - INFO -   - TaskPath: 10000161
+2025-05-30 21:02:13,492 - INFO - [Camera 1] Bounding box 3: Cargo detected
+2025-05-30 21:02:13,492 - INFO -   - TaskPath: 10000162
+2025-05-30 21:02:13,504 - INFO - [Camera 1] Bounding box 5: Cargo detected
+2025-05-30 21:02:13,504 - INFO -   - TaskPath: 10000164
+2025-05-30 21:02:13,557 - INFO - [Camera 3] Bounding box 2: Cargo detected
+2025-05-30 21:02:13,557 - INFO -   - TaskPath: 10000140
+2025-05-30 21:02:13,565 - INFO - [Camera 3] Bounding box 3: Cargo detected
+2025-05-30 21:02:13,565 - INFO -   - TaskPath: 10000171
+2025-05-30 21:02:13,572 - INFO - [Camera 3] Bounding box 4: Cargo detected
+2025-05-30 21:02:13,572 - INFO -   - TaskPath: 10000170
+2025-05-30 21:03:04,223 - INFO - Stopped all threads and closed windows
+2025-05-30 21:11:38,807 - INFO - [Camera 1] Started RTSP reading thread
+2025-05-30 21:11:38,808 - INFO - [Camera 2] Started RTSP reading thread
+2025-05-30 21:11:38,809 - INFO - [Camera 3] Started RTSP reading thread
+2025-05-30 21:11:38,810 - INFO - [Camera 1] Started frame processing thread
+2025-05-30 21:11:38,811 - INFO - [Camera 2] Started frame processing thread
+2025-05-30 21:11:38,811 - INFO - [Camera 3] Started frame processing thread
+2025-05-30 21:11:38,812 - INFO - [Camera 1] Initialized FFmpeg for RTSP: rtsp://admin:Soncave1!@192.168.1.27:554/streaming/channels/101
+2025-05-30 21:11:38,813 - INFO - [Camera 2] Initialized FFmpeg for RTSP: rtsp://admin:Soncave1!@192.168.1.28:554/streaming/channels/101
+2025-05-30 21:11:38,814 - INFO - [Camera 3] Initialized FFmpeg for RTSP: rtsp://admin:Soncave1!@192.168.1.29:554/streaming/channels/101
+2025-05-30 21:11:41,817 - WARNING - [Camera 2] Frame queue empty, waiting for new frame
+2025-05-30 21:11:41,817 - WARNING - [Camera 3] Frame queue empty, waiting for new frame
+2025-05-30 21:11:41,817 - WARNING - [Camera 1] Frame queue empty, waiting for new frame
+2025-05-30 21:11:43,905 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:43,910 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:43,915 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:43,916 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:43,932 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:43,932 - INFO - [Camera 1] Bounding box 1: Cargo detected
+2025-05-30 21:11:43,932 - INFO -   - TaskPath: 10000160
+2025-05-30 21:11:43,934 - DEBUG - [Camera 1] Added 10000160 to has_start_task_paths={'10000160'}
+2025-05-30 21:11:43,944 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:43,944 - INFO - [Camera 1] Bounding box 2: Cargo detected
+2025-05-30 21:11:43,944 - INFO -   - TaskPath: 10000161
+2025-05-30 21:11:43,946 - DEBUG - [Camera 1] Added 10000161 to has_start_task_paths={'10000161', '10000160'}
+2025-05-30 21:11:43,955 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:43,956 - INFO - [Camera 1] Bounding box 3: Cargo detected
+2025-05-30 21:11:43,956 - INFO -   - TaskPath: 10000162
+2025-05-30 21:11:43,958 - DEBUG - [Camera 1] Added 10000162 to has_start_task_paths={'10000162', '10000161', '10000160'}
+2025-05-30 21:11:43,960 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:43,962 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:43,963 - INFO - [Camera 1] Bounding box 5: Cargo detected
+2025-05-30 21:11:43,963 - INFO -   - TaskPath: 10000164
+2025-05-30 21:11:43,964 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:43,971 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:43,974 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:43,975 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:43,975 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:44,017 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:44,025 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:44,026 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:44,028 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:44,029 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:44,031 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:44,039 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:44,042 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:44,045 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:44,046 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:44,102 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:44,111 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:44,111 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:44,118 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:44,118 - INFO - [Camera 3] Bounding box 2: Cargo detected
+2025-05-30 21:11:44,118 - INFO -   - TaskPath: 10000140
+2025-05-30 21:11:44,122 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:44,123 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:44,126 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:44,126 - INFO - [Camera 3] Bounding box 3: Cargo detected
+2025-05-30 21:11:44,126 - INFO -   - TaskPath: 10000171
+2025-05-30 21:11:44,126 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:44,127 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:44,132 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:44,132 - INFO - [Camera 3] Bounding box 4: Cargo detected
+2025-05-30 21:11:44,132 - INFO -   - TaskPath: 10000170
+2025-05-30 21:11:44,136 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:44,136 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:44,186 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:44,201 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:44,210 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:44,217 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:44,218 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:44,219 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:44,246 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:44,252 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:44,258 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:44,263 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:44,264 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:44,264 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:44,343 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:44,344 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:44,348 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:44,349 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:44,491 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:44,500 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:44,507 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:44,509 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:44,511 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:44,512 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:44,540 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:44,546 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:44,552 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:44,556 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:44,558 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:44,558 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:44,859 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:44,861 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:44,862 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:44,863 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:44,984 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:44,990 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:44,997 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:44,998 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:45,001 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:45,001 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:45,073 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:45,079 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:45,085 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:45,090 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:45,091 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:45,091 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:45,342 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:45,344 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:45,345 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:45,346 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:45,488 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:45,494 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:45,501 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:45,502 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:45,505 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:45,505 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:45,533 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:45,540 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:45,546 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:45,550 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:45,551 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:45,551 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:45,854 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:45,856 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:45,857 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:45,858 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:45,978 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:45,984 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:45,992 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:45,995 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:46,004 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:46,005 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:46,056 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:46,063 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:46,068 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:46,072 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:46,073 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:46,074 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:46,344 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:46,347 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:46,348 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:46,349 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:46,465 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:46,470 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:46,476 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:46,477 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:46,480 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:46,480 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:46,535 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:46,541 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:46,546 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:46,551 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:46,554 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:46,554 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:46,864 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:46,866 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:46,867 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:46,868 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:46,993 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:47,002 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:47,009 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:47,011 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:47,014 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:47,015 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:47,063 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:47,070 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:47,078 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:47,083 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:47,084 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:47,084 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:47,336 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:47,337 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:47,338 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:47,339 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:47,499 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:47,508 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:47,524 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:47,527 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:47,539 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:47,539 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:47,551 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:47,558 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:47,564 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:47,570 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:47,571 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:47,572 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:47,858 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:47,860 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:47,862 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:47,863 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:47,982 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:47,987 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:47,993 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:47,995 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:47,998 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:47,998 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:48,057 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:48,076 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:48,094 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:48,100 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:48,102 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:48,102 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:48,360 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:48,362 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:48,365 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:48,366 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:48,458 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:48,467 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:48,477 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:48,479 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:48,482 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:48,482 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:48,539 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:48,545 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:48,551 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:48,556 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:48,557 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:48,557 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:48,856 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:48,857 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:48,858 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:48,859 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:48,985 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:48,992 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:48,998 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:49,016 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:49,020 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:49,021 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:49,051 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:49,056 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:49,062 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:49,066 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:49,068 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:49,068 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:49,341 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:49,343 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:49,345 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:49,345 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:49,460 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:49,466 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:49,472 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:49,474 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:49,476 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:49,476 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:49,539 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:49,559 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:49,568 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:49,574 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:49,575 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:49,576 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:49,859 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:49,861 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:49,861 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:49,862 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:49,982 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:49,988 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:49,994 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:49,995 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:49,998 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:49,998 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:50,050 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:50,055 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:50,061 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:50,065 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:50,066 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:50,066 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:50,338 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:50,340 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:50,341 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:50,342 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:50,459 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:50,465 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:50,471 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:50,473 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:50,476 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:50,476 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:50,551 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:50,557 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:50,564 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:50,568 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:50,569 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:50,570 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:50,860 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:50,864 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:50,866 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:50,867 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:50,975 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:50,982 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:50,987 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:50,989 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:50,991 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:50,992 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:51,059 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:51,066 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:51,072 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:51,077 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:51,078 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:51,079 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:51,341 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:51,343 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:51,344 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:51,345 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:51,473 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:51,478 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:51,485 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:51,486 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:51,489 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:51,490 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:51,535 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:51,541 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:51,546 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:51,551 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:51,552 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:51,552 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:51,870 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:51,871 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:51,872 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:51,873 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:51,998 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:52,006 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:52,013 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:52,015 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:52,018 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:52,018 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:52,064 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:52,070 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:52,076 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:52,080 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:52,082 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:52,082 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:52,333 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:52,335 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:52,336 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:52,337 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:52,459 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:52,466 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:52,473 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:52,474 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:52,477 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:52,477 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:52,542 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:52,549 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:52,557 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:52,563 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:52,564 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:52,564 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:52,855 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:52,857 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:52,858 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:52,859 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:52,972 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:52,978 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:52,985 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:52,987 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:52,989 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:52,990 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:53,078 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:53,085 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:53,091 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:53,096 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:53,097 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:53,097 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:53,342 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:53,345 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:53,346 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:53,347 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:53,483 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:53,493 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:53,500 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:53,502 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:53,505 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:53,506 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:53,537 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:53,543 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:53,549 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:53,553 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:53,555 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:53,556 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:53,865 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:53,867 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:53,868 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:53,869 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:53,972 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:53,978 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:53,984 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:53,986 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:53,989 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:53,989 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:54,038 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:54,045 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:54,052 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:54,056 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:54,058 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:54,058 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:54,333 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:54,335 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:54,335 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:54,336 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:54,463 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:54,469 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:54,475 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:54,477 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:54,480 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:54,481 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:54,531 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:54,550 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:54,562 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:54,570 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:54,572 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:54,572 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:54,861 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:54,863 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:54,864 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:54,864 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:54,980 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:54,987 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:54,993 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:54,994 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:54,997 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:54,998 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:55,017 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:55,023 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:55,029 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:55,034 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:55,035 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:55,035 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:55,338 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:55,340 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:55,343 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:55,344 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:55,460 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:55,468 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:55,474 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:55,475 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:55,478 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:55,478 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:55,537 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:55,543 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:55,548 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:55,552 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:55,553 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:55,553 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:55,881 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:55,883 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:55,885 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:55,886 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:55,948 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:55,954 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:55,961 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:55,962 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:55,965 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:55,966 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:56,016 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:56,022 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:56,028 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:56,032 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:56,033 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:56,034 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:56,340 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:56,342 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:56,343 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:56,344 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:56,477 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:56,483 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:56,490 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:56,491 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:56,494 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:56,494 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:56,536 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:56,542 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:56,548 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:56,553 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:56,554 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:56,554 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:56,893 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:56,895 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:56,896 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:56,897 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:56,933 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:56,940 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:56,946 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:56,947 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:56,950 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:56,951 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:57,026 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:57,032 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:57,039 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:57,044 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:57,045 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:57,046 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:57,334 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:57,336 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:57,336 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:57,337 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:57,462 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:57,468 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:57,474 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:57,476 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:57,478 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:57,479 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:57,540 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:57,546 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:57,553 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:57,556 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:57,557 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:57,558 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:57,854 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:57,857 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:57,858 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:57,859 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:57,933 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:57,939 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:57,945 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:57,946 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:57,949 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:57,950 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:58,012 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:58,018 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:58,024 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:58,027 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:58,028 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:58,028 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:58,336 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:58,339 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:58,340 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:58,340 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:58,462 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:58,467 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:58,473 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:58,474 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:58,477 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:58,477 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:58,527 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:58,533 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:58,539 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:58,544 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:58,544 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:58,544 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:58,857 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:58,859 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:58,860 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:58,861 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:58,938 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:58,944 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:58,949 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:58,951 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:58,953 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:58,953 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:59,013 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:59,020 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:59,028 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:59,032 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:59,033 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:59,033 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:59,348 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:59,349 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:59,350 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:59,351 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:59,469 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:59,475 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:59,481 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:59,484 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:59,488 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:59,488 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:11:59,535 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:11:59,543 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:11:59,551 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:11:59,557 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:11:59,559 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:11:59,559 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:11:59,861 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:11:59,862 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:11:59,863 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:11:59,863 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:11:59,966 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:11:59,974 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:11:59,980 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:11:59,982 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:11:59,985 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:11:59,986 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:00,005 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:00,023 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:00,029 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:00,034 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:00,036 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:00,036 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:00,331 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:00,333 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:00,334 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:00,335 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:00,455 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:00,461 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:00,467 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:00,468 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:00,471 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:00,472 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:00,536 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:00,543 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:00,549 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:00,553 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:00,554 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:00,555 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:00,853 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:00,855 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:00,856 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:00,857 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:00,944 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:00,949 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:00,955 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:00,956 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:00,959 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:00,959 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:01,019 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:01,025 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:01,031 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:01,037 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:01,039 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:01,040 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:01,355 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:01,356 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:01,360 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:01,361 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:01,460 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:01,471 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:01,480 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:01,482 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:01,485 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:01,486 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:01,534 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:01,540 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:01,546 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:01,550 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:01,551 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:01,552 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:01,852 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:01,854 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:01,855 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:01,856 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:01,941 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:01,946 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:01,952 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:01,954 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:01,956 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:01,957 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:02,009 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:02,044 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:02,057 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:02,066 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:02,068 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:02,068 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:02,330 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:02,332 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:02,333 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:02,334 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:02,465 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:02,470 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:02,477 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:02,478 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:02,481 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:02,482 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:02,538 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:02,545 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:02,551 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:02,556 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:02,557 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:02,557 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:02,855 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:02,857 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:02,858 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:02,860 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:02,942 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:02,948 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:02,954 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:02,956 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:02,958 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:02,958 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:03,037 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:03,048 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:03,057 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:03,063 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:03,064 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:03,064 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:03,338 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:03,340 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:03,341 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:03,342 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:03,487 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:03,494 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:03,500 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:03,502 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:03,504 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:03,504 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:03,537 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:03,543 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:03,548 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:03,552 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:03,553 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:03,554 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:03,854 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:03,856 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:03,856 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:03,858 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:03,940 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:03,947 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:03,952 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:03,954 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:03,958 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:03,958 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:04,017 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:04,026 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:04,035 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:04,042 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:04,043 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:04,044 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:04,335 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:04,337 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:04,338 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:04,338 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:04,466 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:04,473 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:04,479 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:04,480 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:04,483 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:04,484 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:04,535 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:04,541 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:04,547 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:04,552 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:04,552 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:04,553 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:04,851 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:04,854 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:04,864 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:04,866 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:04,943 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:04,949 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:04,956 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:04,958 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:04,961 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:04,961 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:05,017 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:05,024 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:05,030 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:05,035 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:05,035 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:05,036 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:05,337 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:05,340 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:05,341 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:05,342 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:05,456 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:05,463 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:05,470 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:05,471 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:05,474 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:05,474 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:05,549 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:05,558 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:05,565 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:05,570 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:05,572 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:05,572 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:05,848 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:05,850 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:05,851 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:05,852 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:05,937 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:05,947 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:05,957 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:05,959 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:05,962 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:05,962 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:06,010 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:06,017 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:06,023 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:06,029 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:06,030 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:06,030 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:06,332 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:06,335 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:06,336 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:06,337 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:06,460 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:06,470 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:06,480 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:06,483 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:06,487 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:06,487 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:06,534 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:06,540 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:06,547 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:06,551 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:06,552 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:06,552 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:06,859 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:06,861 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:06,863 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:06,864 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:06,930 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:06,936 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:06,942 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:06,944 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:06,947 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:06,947 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:07,040 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:07,047 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:07,054 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:07,059 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:07,060 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:07,061 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:07,330 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:07,332 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:07,333 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:07,334 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:07,458 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:07,465 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:07,471 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:07,472 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:07,475 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:07,475 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:07,535 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:07,542 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:07,550 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:07,556 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:07,558 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:07,558 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:07,859 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:07,860 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:07,861 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:07,863 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:07,937 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:07,942 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:07,951 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:07,955 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:07,963 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:07,964 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:08,016 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:08,023 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:08,029 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:08,034 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:08,035 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:08,035 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:08,332 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:08,335 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:08,336 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:08,337 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:08,452 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:08,458 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:08,464 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:08,466 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:08,469 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:08,469 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:08,536 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:08,543 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:08,552 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:08,557 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:08,559 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:08,559 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:08,852 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:08,854 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:08,855 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:08,856 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:08,949 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:08,956 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:08,962 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:08,963 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:08,966 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:08,967 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:09,015 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:09,021 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:09,027 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:09,031 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:09,033 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:09,033 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:09,344 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:09,345 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:09,346 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:09,347 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:09,454 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:09,463 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:09,472 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:09,473 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:09,476 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:09,477 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:09,530 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:09,536 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:09,542 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:09,546 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:09,546 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:09,547 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:09,867 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:09,869 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:09,875 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:09,876 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:09,933 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:09,940 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:09,946 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:09,948 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:09,951 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:09,951 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:10,027 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:10,033 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:10,039 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:10,043 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:10,044 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:10,044 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:10,332 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:10,334 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:10,335 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:10,336 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:10,455 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:10,461 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:10,467 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:10,469 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:10,471 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:10,472 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:10,536 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:10,550 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:10,559 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:10,564 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:10,566 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:10,566 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:10,848 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:10,850 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:10,851 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:10,852 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:10,935 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:10,943 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:10,952 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:10,955 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:10,958 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:10,959 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:11,007 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:11,014 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:11,020 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:11,024 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:11,026 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:11,026 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:11,334 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:11,336 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:11,337 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:11,338 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:11,451 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:11,457 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:11,463 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:11,464 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:11,467 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:11,468 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:11,532 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:11,538 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:11,545 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:11,548 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:11,550 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:11,550 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:11,854 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:11,856 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:11,859 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:11,860 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:11,931 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:11,937 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:11,944 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:11,945 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:11,948 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:11,948 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:12,012 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:12,019 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:12,027 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:12,033 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:12,034 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:12,035 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:12,345 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:12,346 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:12,347 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:12,349 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:12,477 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:12,483 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:12,490 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:12,492 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:12,495 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:12,496 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:12,548 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:12,554 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:12,561 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:12,568 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:12,570 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:12,570 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:12,857 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:12,860 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:12,862 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:12,862 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:12,935 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:12,941 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:12,947 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:12,948 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:12,951 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:12,951 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:13,015 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:13,022 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:13,028 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:13,032 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:13,035 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:13,035 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:13,326 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:13,328 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:13,329 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:13,330 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:13,450 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:13,457 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:13,464 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:13,466 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:13,468 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:13,468 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:13,526 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:13,545 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:13,554 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:13,561 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:13,563 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:13,564 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:13,850 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:13,852 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:13,854 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:13,855 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:13,963 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:13,969 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:13,975 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:13,977 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:13,980 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:13,980 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:14,014 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:14,019 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:14,026 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:14,029 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:14,031 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:14,031 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:14,328 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:14,330 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:14,331 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:14,333 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:14,450 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:14,459 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:14,469 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:14,472 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:14,475 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:14,476 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:14,524 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:14,528 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:14,536 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:14,540 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:14,541 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:14,542 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:14,851 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:14,853 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:14,854 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:14,855 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:14,930 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:14,937 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:14,944 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:14,945 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:14,948 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:14,949 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:15,034 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:15,041 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:15,046 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:15,051 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:15,052 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:15,053 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:15,325 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:15,327 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:15,328 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:15,329 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:15,450 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:15,456 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:15,463 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:15,467 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:15,469 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:15,470 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:15,531 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:15,548 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:15,557 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:15,567 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:15,569 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:15,569 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:15,851 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:15,853 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:15,854 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:15,855 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:15,933 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:15,942 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:15,951 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:15,954 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:15,957 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:15,958 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:16,006 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:16,011 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:16,018 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:16,023 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:16,025 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:16,025 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:16,332 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:16,333 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:16,334 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:16,335 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:16,453 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:16,462 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:16,472 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:16,474 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:16,479 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:16,480 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:16,534 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:16,541 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:16,547 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:16,551 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:16,552 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:16,552 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:16,852 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:16,854 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:16,854 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:16,855 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:16,935 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:16,941 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:16,947 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:16,949 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:16,952 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:16,952 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:17,014 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:17,022 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:17,031 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:17,037 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:17,039 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:17,040 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:17,332 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:17,334 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:17,335 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:17,336 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:17,457 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:17,463 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:17,470 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:17,471 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:17,474 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:17,475 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:17,550 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:17,568 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:17,582 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:17,587 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:17,589 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:17,589 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:17,849 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:17,852 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:17,853 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:17,854 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:17,927 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:17,933 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:17,939 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:17,940 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:17,943 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:17,944 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:18,012 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:18,018 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:18,023 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:18,028 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:18,029 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:18,029 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:18,333 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:18,335 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:18,337 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:18,338 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:18,451 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:18,457 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:18,463 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:18,465 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:18,468 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:18,468 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:18,535 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:18,542 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:18,548 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:18,552 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:18,553 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:18,554 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:18,854 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:18,857 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:18,858 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:18,858 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:18,939 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:18,945 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:18,952 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:18,954 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:18,957 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:18,957 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:19,016 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:19,022 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:19,032 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:19,039 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:19,041 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:19,041 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:19,325 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:19,330 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:19,331 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:19,332 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:19,471 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:19,480 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:19,487 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:19,488 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:19,491 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:19,491 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:19,532 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:19,537 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:19,543 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:19,547 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:19,549 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:19,549 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:19,857 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:19,860 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:19,861 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:19,862 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:19,937 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:19,944 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:19,950 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:19,951 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:19,953 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:19,954 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:20,017 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:20,024 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:20,030 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:20,035 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:20,036 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:20,037 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:20,323 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:20,325 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:20,326 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:20,327 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:20,451 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:20,457 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:20,464 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:20,465 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:20,468 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:20,468 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:20,554 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:20,567 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:20,573 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:20,577 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:20,579 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:20,579 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:20,880 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:20,882 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:20,883 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:20,884 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:20,932 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:20,939 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:20,949 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:20,954 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:20,957 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:20,958 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:21,013 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:21,019 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:21,025 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:21,030 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:21,031 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:21,032 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:21,321 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:21,323 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:21,324 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:21,325 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:21,449 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:21,454 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:21,461 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:21,462 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:21,465 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:21,466 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:21,529 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:21,540 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:21,546 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:21,550 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:21,551 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:21,552 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:21,849 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:21,851 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:21,852 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:21,853 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:21,938 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:21,944 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:21,949 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:21,951 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:21,954 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:21,954 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:22,007 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:22,013 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:22,019 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:22,023 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:22,024 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:22,024 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:22,333 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:22,335 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:22,336 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:22,337 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:22,455 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:22,464 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:22,474 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:22,477 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:22,480 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:22,481 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:22,532 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:22,538 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:22,545 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:22,549 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:22,551 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:22,551 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:22,857 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:22,860 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:22,860 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:22,861 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:22,928 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:22,934 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:22,940 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:22,942 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:22,944 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:22,944 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:23,018 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:23,024 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:23,031 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:23,036 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:23,037 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:23,037 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:23,331 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:23,333 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:23,334 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:23,335 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:23,451 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:23,458 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:23,464 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:23,466 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:23,469 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:23,469 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:23,548 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:23,556 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:23,564 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:23,570 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:23,571 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:23,571 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:23,847 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:23,848 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:23,850 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:23,851 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:23,929 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:23,938 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:23,948 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:23,949 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:23,953 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:23,953 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:24,010 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:24,016 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:24,021 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:24,025 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:24,027 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:24,027 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:24,331 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:24,332 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:24,334 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:24,335 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:24,450 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:24,459 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:24,468 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:24,470 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:24,475 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:24,475 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:24,532 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:24,537 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:24,543 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:24,548 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:24,549 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:24,550 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:24,847 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:24,849 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:24,850 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:24,850 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:24,929 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:24,935 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:24,943 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:24,945 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:24,949 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:24,949 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:25,018 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:25,043 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:25,051 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:25,056 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:25,057 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:25,058 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:25,319 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:25,321 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:25,322 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:25,323 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:25,451 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:25,458 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:25,464 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:25,465 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:25,468 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:25,469 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:25,526 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:25,535 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:25,542 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:25,551 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:25,553 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:25,553 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:25,804 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:25,806 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:25,807 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:25,809 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:25,930 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:25,937 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:25,944 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:25,945 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:25,948 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:25,948 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:26,017 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:26,024 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:26,030 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:26,034 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:26,036 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:26,036 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:26,330 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:26,332 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:26,332 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:26,333 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:26,448 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:26,454 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:26,461 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:26,462 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:26,465 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:26,466 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:26,531 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:26,537 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:26,544 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:26,548 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:26,550 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:26,550 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:26,807 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:26,809 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:26,809 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:26,810 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:26,936 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:26,942 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:26,948 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:26,950 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:26,952 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:26,952 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:27,010 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:27,017 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:27,025 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:27,032 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:27,033 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:27,033 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:27,332 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:27,333 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:27,334 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:27,335 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:27,464 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:27,470 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:27,477 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:27,479 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:27,481 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:27,482 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:27,530 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:27,538 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:27,544 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:27,549 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:27,549 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:27,550 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:27,803 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:27,805 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:27,805 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:27,806 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:27,927 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:27,933 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:27,939 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:27,941 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:27,943 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:27,943 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:28,015 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:28,023 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:28,028 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:28,032 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:28,034 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:28,034 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:28,331 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:28,334 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:28,335 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:28,336 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:28,450 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:28,456 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:28,462 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:28,464 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:28,467 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:28,467 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:28,541 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:28,547 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:28,556 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:28,560 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:28,561 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:28,562 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:28,805 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:28,807 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:28,807 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:28,808 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:28,947 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:28,954 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:28,960 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:28,961 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:28,964 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:28,965 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:29,012 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:29,019 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:29,025 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:29,030 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:29,031 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:29,032 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:29,325 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:29,331 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:29,332 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:29,333 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:29,447 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:29,456 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:29,465 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:29,467 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:29,483 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:29,483 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:29,524 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:29,532 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:29,538 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:29,543 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:29,544 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:29,545 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:29,803 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:29,807 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:29,808 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:29,809 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:29,935 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:29,944 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:29,950 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:29,952 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:29,954 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:29,955 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:30,008 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:30,014 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:30,042 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:30,048 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:30,052 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:30,052 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:30,328 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:30,330 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:30,332 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:30,333 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:30,457 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:30,463 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:30,470 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:30,472 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:30,475 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:30,475 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:30,530 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:30,535 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:30,541 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:30,544 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:30,546 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:30,547 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:30,808 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:30,810 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:30,811 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:30,812 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:30,929 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:30,934 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:30,941 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:30,941 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:30,944 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:30,945 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:31,007 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:31,013 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:31,018 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:31,023 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:31,025 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:31,025 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:31,332 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:31,334 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:31,335 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:31,337 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:31,447 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:31,454 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:31,460 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:31,462 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:31,464 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:31,464 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:31,534 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:31,541 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:31,546 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:31,551 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:31,552 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:31,552 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:31,806 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:31,807 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:31,808 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:31,809 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:31,934 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:31,943 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:31,949 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:31,951 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:31,954 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:31,954 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:32,006 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:32,011 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:32,017 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:32,022 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:32,023 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:32,024 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:32,331 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:32,333 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:32,334 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:32,335 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:32,471 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:32,479 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:32,486 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:32,487 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:32,491 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:32,491 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:32,523 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:32,529 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:32,534 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:32,539 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:32,540 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:32,541 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:32,804 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:32,806 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:32,807 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:32,807 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:32,925 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:32,930 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:32,937 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:32,938 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:32,940 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:32,940 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:33,016 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:33,022 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:33,029 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:33,033 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:33,034 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:33,034 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:33,324 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:33,327 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:33,328 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:33,328 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:33,445 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:33,451 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:33,457 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:33,459 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:33,461 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:33,462 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:33,534 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:33,554 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:33,562 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:33,568 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:33,569 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:33,569 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:33,799 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:33,802 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:33,803 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:33,804 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:33,923 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:33,928 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:33,934 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:33,935 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:33,937 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:33,938 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:34,008 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:34,013 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:34,019 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:34,023 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:34,024 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:34,024 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:34,327 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:34,328 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:34,329 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:34,330 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:34,438 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:34,444 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:34,449 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:34,450 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:34,453 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:34,453 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:34,521 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:34,527 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:34,532 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:34,537 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:34,538 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:34,538 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:34,804 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:34,807 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:34,808 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:34,809 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:34,927 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:34,933 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:34,939 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:34,940 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:34,943 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:34,943 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:35,007 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:35,013 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:35,019 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:35,023 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:35,024 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:35,024 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:35,326 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:35,328 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:35,329 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:35,330 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:35,451 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:35,457 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:35,463 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:35,466 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:35,468 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:35,469 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:35,522 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:35,530 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:35,537 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:35,541 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:35,542 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:35,543 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:35,801 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:35,803 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:35,804 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:35,805 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:35,928 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:35,937 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:35,946 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:35,948 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:35,951 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:35,951 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:36,001 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:36,008 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:36,015 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:36,019 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:36,021 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:36,021 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:36,346 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:36,348 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:36,349 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:36,350 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:36,456 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:36,465 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:36,475 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:36,475 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:36,479 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:36,480 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:36,522 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:36,527 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:36,533 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:36,537 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:36,538 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:36,538 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:36,803 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:36,805 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:36,806 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:36,807 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:36,926 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:36,932 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:36,939 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:36,940 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:36,943 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:36,943 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:37,020 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:37,026 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:37,034 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:37,039 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:37,041 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:37,041 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:37,322 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:37,324 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:37,325 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:37,326 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:37,494 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:37,501 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:37,515 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:37,516 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:37,520 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:37,521 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:37,541 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:37,567 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:37,576 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:37,593 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:37,595 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:37,595 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:37,801 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:37,803 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:37,804 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:37,805 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:37,920 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:37,928 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:37,938 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:37,941 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:37,943 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:37,944 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:38,023 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:38,031 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:38,040 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:38,045 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:38,047 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:38,047 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:38,325 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:38,328 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:38,329 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:38,330 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:38,447 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:38,453 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:38,460 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:38,462 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:38,465 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:38,465 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:38,523 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:38,530 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:38,543 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:38,553 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:38,555 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:38,555 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:38,808 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:38,810 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:38,811 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:38,812 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:38,929 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:38,938 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:38,948 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:38,950 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:38,954 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:38,955 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:39,004 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:39,010 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:39,016 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:39,020 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:39,021 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:39,022 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:39,322 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:39,324 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:39,325 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:39,326 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:39,445 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:39,451 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:39,458 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:39,459 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:39,461 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:39,462 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:39,527 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:39,539 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:39,545 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:39,550 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:39,552 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:39,552 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:39,800 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:39,802 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:39,803 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:39,804 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:39,930 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:39,938 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:39,944 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:39,946 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:39,949 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:39,949 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:39,998 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:40,003 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:40,009 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:40,013 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:40,014 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:40,015 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:40,337 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:40,338 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:40,339 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:40,340 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:40,476 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:40,483 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:40,489 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:40,491 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:40,494 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:40,495 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:40,521 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:40,527 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:40,533 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:40,538 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:40,539 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:40,539 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:40,800 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:40,802 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:40,803 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:40,804 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:40,923 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:40,930 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:40,936 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:40,938 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:40,941 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:40,941 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:41,006 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:41,018 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:41,027 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:41,033 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:41,034 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:41,034 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:41,328 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:41,331 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:41,331 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:41,332 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:41,451 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:41,458 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:41,464 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:41,466 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:41,469 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:41,469 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:41,522 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:41,529 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:41,535 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:41,539 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:41,540 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:41,541 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:41,800 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:41,802 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:41,803 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:41,804 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:41,922 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:41,930 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:41,938 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:41,940 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:41,943 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:41,944 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:42,007 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:42,013 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:42,020 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:42,026 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:42,027 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:42,027 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:42,318 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:42,320 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:42,321 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:42,323 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:42,444 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:42,449 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:42,455 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:42,457 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:42,459 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:42,460 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:42,523 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:42,529 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:42,535 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:42,539 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:42,540 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:42,541 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:42,806 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:42,808 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:42,809 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:42,810 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:42,922 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:42,928 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:42,934 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:42,936 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:42,940 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:42,940 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:43,004 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:43,011 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:43,320 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:43,428 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:43,430 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:43,431 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:43,435 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:43,442 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:43,443 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:43,443 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:43,477 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:43,484 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:43,488 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:43,491 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:43,496 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:43,497 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:43,498 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:43,500 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:43,501 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:43,502 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:43,503 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:43,504 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:43,804 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:43,807 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:43,808 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:43,809 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:43,922 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:43,928 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:43,935 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:43,937 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:43,941 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:43,941 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:44,028 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:44,038 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:44,045 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:44,049 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:44,051 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:44,051 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:44,329 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:44,331 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:44,332 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:44,333 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:44,468 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:44,476 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:44,482 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:44,483 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:44,485 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:44,488 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:44,489 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:44,490 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:44,497 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:44,501 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:44,503 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:44,503 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:44,801 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:44,803 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:44,804 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:44,805 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:44,923 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:44,933 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:44,939 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:44,940 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:44,943 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:44,944 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:44,993 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:44,999 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:45,004 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:45,009 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:45,010 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:45,010 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:45,328 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:45,331 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:45,332 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:45,333 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:45,444 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:45,449 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:45,455 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:45,456 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:45,459 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:45,460 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:45,484 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:45,490 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:45,495 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:45,500 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:45,501 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:45,501 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:45,841 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:45,843 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:45,844 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:45,845 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:45,921 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:45,929 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:45,935 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:45,937 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:45,940 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:45,940 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:45,993 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:45,999 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:46,005 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:46,010 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:46,011 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:46,011 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:46,318 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:46,320 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:46,330 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:46,331 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:46,402 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:46,409 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:46,417 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:46,418 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:46,421 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:46,421 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:46,478 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:46,484 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:46,490 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:46,495 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:46,496 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:46,496 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:46,800 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:46,801 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:46,802 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:46,803 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:46,922 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:46,928 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:46,934 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:46,935 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:46,938 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:46,939 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:46,998 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:47,003 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:47,009 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:47,013 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:47,015 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:47,015 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:47,318 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:47,320 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:47,321 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:47,323 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:47,406 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:47,412 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:47,418 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:47,420 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:47,422 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:47,422 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:47,478 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:47,483 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:47,488 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:47,493 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:47,494 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:47,494 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:47,801 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:47,803 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:47,804 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:47,805 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:47,918 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:47,924 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:47,930 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:47,931 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:47,934 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:47,935 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:47,999 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:48,005 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:48,010 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:48,015 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:48,016 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:48,016 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:48,320 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:48,324 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:48,325 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:48,326 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:48,397 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:48,403 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:48,408 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:48,409 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:48,412 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:48,412 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:48,475 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:48,480 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:48,486 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:48,490 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:48,491 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:48,492 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:48,804 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:48,807 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:48,808 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:48,809 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:48,918 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:48,924 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:48,930 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:48,932 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:48,934 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:48,934 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:48,998 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:49,004 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:49,009 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:49,013 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:49,014 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:49,014 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:49,317 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:49,319 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:49,319 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:49,320 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:49,405 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:49,411 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:49,417 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:49,418 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:49,421 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:49,422 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:49,479 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:49,485 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:49,491 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:49,495 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:49,497 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:49,497 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:49,803 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:49,806 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:49,807 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:49,808 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:49,916 - DEBUG - [Camera 1] detected cargo for task_path=10000160
+2025-05-30 21:12:49,923 - DEBUG - [Camera 1] detected cargo for task_path=10000161
+2025-05-30 21:12:49,928 - DEBUG - [Camera 1] detected cargo for task_path=10000162
+2025-05-30 21:12:49,930 - DEBUG - [Camera 1] No cargo for task_path=10000163
+2025-05-30 21:12:49,933 - DEBUG - [Camera 1] detected cargo for task_path=10000164
+2025-05-30 21:12:49,933 - DEBUG - [Camera 1] Processed frame sent to display queue
+2025-05-30 21:12:49,990 - DEBUG - [Camera 3] No cargo for task_path=10000141
+2025-05-30 21:12:49,996 - DEBUG - [Camera 3] detected cargo for task_path=10000140
+2025-05-30 21:12:50,002 - DEBUG - [Camera 3] detected cargo for task_path=10000171
+2025-05-30 21:12:50,006 - DEBUG - [Camera 3] detected cargo for task_path=10000170
+2025-05-30 21:12:50,008 - DEBUG - [Camera 3] No cargo for task_path=10000172
+2025-05-30 21:12:50,008 - DEBUG - [Camera 3] Processed frame sent to display queue
+2025-05-30 21:12:50,319 - DEBUG - [Camera 2] No cargo for task_path=10000146
+2025-05-30 21:12:50,321 - DEBUG - [Camera 2] No cargo for task_path=10000234
+2025-05-30 21:12:50,322 - DEBUG - [Camera 2] No cargo for task_path=10000147
+2025-05-30 21:12:50,323 - DEBUG - [Camera 2] Processed frame sent to display queue
+2025-05-30 21:12:50,357 - INFO - Stopped all threads and closed windows
